@@ -2,8 +2,43 @@
 <html>
 	<head>
 		<title>Renuka PR</title>
+		<!-- Magnific Popup core CSS file -->
+		<link rel="stylesheet" href="includes/css/magnific-popup.css"> 
 	</head>
 	<body>
-	
+		<div class="parent-container">
+			<a href="includes/images/architecture.jpg"><img src="includes/images/architecture.jpg" width="175" /></a>
+			<a href="includes/images/CHOCOLATE.jpg"><img src="includes/images/CHOCOLATE.jpg" width="175" /></a>
+			<a href="includes/images/compute.jpg"><img src="includes/images/compute.jpg" width="175" /></a>
+			<a href="includes/images/option_02.jpg"><img src="includes/images/option_02.jpg" width="175" /></a>
+			<a href="includes/images/option-2.jpg"><img src="includes/images/option-2.jpg" width="175" /></a>
+			<a href="includes/images/option-03.jpg"><img src="includes/images/option-03.jpg" width="175" /></a>
+			<a href="includes/images/spa.jpg"><img src="includes/images/spa.jpg" width="175" /></a>
+			<a href="includes/images/Sports.jpg"><img src="includes/images/Sports.jpg" width="175" /></a>
+			<a href="includes/images/template01.jpg"><img src="includes/images/template01.jpg" width="175" /></a>
+			<a href="includes/images/template_01.jpg"><img src="includes/images/template_01.jpg" width="175" /></a>
+			<a href="includes/images/template-1.jpg"><img src="includes/images/template-1.jpg" width="175" /></a>
+			<a href="includes/images/template-2.jpg"><img src="includes/images/template-2.jpg" width="175" /></a>
+			<a href="includes/images/website_13.jpg"><img src="includes/images/website_13.jpg" width="175" /></a>
+		</div>
+		
+		<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+
+		<!-- Magnific Popup core JS file -->
+		<script src="includes/js/jquery.magnific-popup.min.js"></script> 
+		
+		<script>
+			$('.parent-container').magnificPopup({
+				delegate: 'a',
+				type: 'image',
+				gallery:{
+					enabled:true
+				},
+				zoom:{
+					enabled:true
+				}
+			});
+		</script>
 	</body>
 </html>
